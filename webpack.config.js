@@ -5,7 +5,7 @@ const {
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
@@ -58,7 +58,8 @@ module.exports = {
       cleanStaleWebpackAssets: false
     }),
     new HtmlWebpackPlugin({
-      title: 'Output Management',
+      title: 'Calendar',
+      template: './src/index.html'
     }),
   ],
   resolve: {
