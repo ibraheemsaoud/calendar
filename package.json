@@ -7,8 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.js",
     "watch": "webpack --watch",
-    "start": "webpack serve --open chrome.exe",
-    "ultra-start": " // --env NODE_ENV=local --env production --progress"
+    "start": "webpack serve --open chrome.exe"
   },
   "repository": {
     "type": "git",
