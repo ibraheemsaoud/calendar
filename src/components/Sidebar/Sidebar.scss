@@ -1,0 +1,8 @@
+@import '../../theme.scss';
+
+.sidebar-container {
+  background: $primary-color;
+  height: 100vh;
+  color: $blue-10; /* From colors.less */
+  padding: $padding-lg; /* From themes/default.less */
+}

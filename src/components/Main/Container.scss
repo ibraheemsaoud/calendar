@@ -1,0 +1,20 @@
+@import '../../theme.scss';
+
+.main-container {
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0;
+  grid-auto-rows: minmax(100px, auto);
+
+  .sidebar { 
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .calendar { 
+    grid-column: 2 / 6;
+    grid-row: 1;
+  }
+}

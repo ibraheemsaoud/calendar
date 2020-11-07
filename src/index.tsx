@@ -1,7 +1,8 @@
-import React from 'react'
+import * as React from 'react'
 import ReactDOM from 'react-dom';
 
 import { Router, RouteComponentProps } from '@reach/router'
+import { MainContainer } from './components';
 
 const RouterPage = (
   props: { pageComponent: JSX.Element } & RouteComponentProps
@@ -9,7 +10,7 @@ const RouterPage = (
 
 ReactDOM.render(
   <Router>
-    {/* <RouterPage pageComponent={<Example />} path='/' /> */}
+    <RouterPage pageComponent={<MainContainer />} path='/' />
   </Router>,
   document.getElementById('root')
 )
