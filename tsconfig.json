@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
@@ -13,7 +14,5 @@
     "lib": ["dom", "esnext"],
     "esModuleInterop": true
   },
-  "exclude": [
-    "./node_modules/**/*"
-  ]
+  "exclude":["node_modules"],
 }
