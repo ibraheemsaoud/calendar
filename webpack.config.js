@@ -1,3 +1,4 @@
+/* eslint-disable */
 const path = require('path');
 const {
   CleanWebpackPlugin
@@ -74,5 +75,9 @@ module.exports = {
   ],
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
+    alias: {
+        components: path.resolve('./src/components'),
+        controls: path.resolve('./src/controls')
+    }
   },
 };

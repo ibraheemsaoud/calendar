@@ -8,12 +8,12 @@
   grid-gap: 0;
   grid-auto-rows: minmax(100px, auto);
 
-  .sidebar { 
+  .sidebar {
     grid-column: 1;
     grid-row: 1;
   }
 
-  .calendar { 
+  .calendar {
     grid-column: 2 / 6;
     grid-row: 1;
   }

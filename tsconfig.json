@@ -12,7 +12,12 @@
     "jsx": "react",
     "allowSyntheticDefaultImports": true,
     "lib": ["dom", "esnext"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["./src/components/*"],
+      "controls/*": ["./src/controls/*"],
+    }
   },
   "exclude":["node_modules"],
 }

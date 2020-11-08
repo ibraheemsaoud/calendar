@@ -1,10 +1,10 @@
-import * as React from 'react';
-import { Calendar } from '../Calendar/index';
-import { Sidebar } from '../Sidebar/index';
-import { Toolbar } from '../Toolbar/index';
-import './Container.scss'
+import * as React from "react";
+import { Calendar } from "../Calendar/index";
+import { Sidebar } from "../Sidebar/index";
+import { Toolbar } from "../Toolbar/index";
+import "./Container.scss";
 
-export const MainContainer = () => {
+export const MainContainer = (): JSX.Element => {
   return (
     <div className="main-container" dir="ltr"
     // style={{background:'red', width:'100px', height: '100px'}}
@@ -18,4 +18,4 @@ export const MainContainer = () => {
       </div>
     </div>
   );
-}
+};
